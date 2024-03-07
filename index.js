@@ -7,6 +7,7 @@ app.set("views",path.resolve("./views"));
 
 app.get("/",(req,res)=>{
     return res.render("home")
+    console.log("this i output")
 })
 
 
